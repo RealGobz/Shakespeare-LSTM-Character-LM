@@ -21,7 +21,7 @@ Stacked LSTMs: Two layers of 512 units with Dropout (0.2) to prevent overfitting
 
 Sliding Window: Implemented a logic to always provide the last 100 characters to the model during generation.
 
-Result: 84.20% Validation Accuracy in just one epoch.
+Result: 84.20% Validation Accuracy.
 
 Phase 3: Insights from the Embedding Space
 By applying PCA to the embedding matrix, I visualized how the model "thinks":
